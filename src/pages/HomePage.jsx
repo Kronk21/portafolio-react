@@ -1,5 +1,7 @@
+import MainHero from "../components/Hero/MainHero";
+
 const HomePage = function () {
-    return <p>Home Page</p>;
+    return <MainHero />;
 };
 
 export default HomePage;

@@ -1,0 +1,17 @@
+.hero--about {
+    max-height: 40.8rem;
+}
+
+.hero--about .hero__wrap {
+    /* padding-top: 16rem; */
+    /* padding-bottom: 16rem; */
+
+    height: 40.8rem;
+    min-height: 42rem;
+
+    padding: 16rem 11.6rem 0;
+}
+
+.hero--about .container {
+    max-width: 76.8rem;
+}

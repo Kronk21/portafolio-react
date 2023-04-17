@@ -5,6 +5,9 @@ header {
     right: 0%;
     bottom: auto;
 
+    margin-top: 2.4rem;
+    padding: 2rem 11.6rem 0;
+
     z-index: 1000;
 }
 
@@ -23,7 +26,7 @@ header {
 header .container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: baseline;
 }
 
 .navbar__links {

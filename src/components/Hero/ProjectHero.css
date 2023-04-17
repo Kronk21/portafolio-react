@@ -1,0 +1,19 @@
+.hero--project .container {
+    max-width: 76.8rem;
+}
+
+.hero--project h1 {
+    margin-bottom: 8rem;
+}
+
+.hero--project h2 {
+    margin-bottom: 4rem;
+}
+
+.hero--project p {
+    margin-bottom: 6rem;
+}
+
+.hero--project .btn-box {
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,35 @@
+.hero {
+    min-height: 100vh;
+    padding: 2.4rem;
+}
+
+.hero__wrap {
+    background-color: var(--clr-dark);
+
+    /* padding: 20vh 11.6rem 10.5rem; */
+    height: calc(100vh - 4.8rem);
+    min-height: 62rem;
+
+    padding: 14rem 11.6rem 0;
+    /* padding-top: 14rem; */
+}
+
+.hero--main h1 {
+    margin-bottom: 4rem;
+}
+
+.hero--main h2 {
+    margin-bottom: 2.4rem;
+}
+
+.hero__desc {
+    max-width: 66.4rem;
+
+    font-size: 1.8rem;
+    line-height: 168.2%;
+    color: var(--clr-light);
+}
+
+.hero--main .hero__desc {
+    margin-bottom: 5rem;
+}

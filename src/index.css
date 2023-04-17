@@ -26,7 +26,7 @@ html {
 
 body {
     font-family: "Raleway", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: var(--fw-regular);
 
     color: var(--clr-dark);
@@ -37,9 +37,63 @@ body {
     max-width: 120rem;
 
     margin: 0 auto;
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
 }
 
 ul {
     list-style: none;
+}
+
+h1 {
+    font-size: 7.8rem;
+    font-weight: var(--fw-bold);
+    line-height: 113.2%;
+    color: var(--clr-light);
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: var(--fw-semi);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--clr-primary);
+}
+
+a {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn-box {
+    /* position: relative; */
+    width: fit-content;
+
+    transition: all 0.2s ease-in;
+}
+
+.btn {
+    font-size: 2rem;
+    font-weight: var(--fw-medium);
+    padding: 1.2rem 3.6rem;
+
+    transform: translate(1rem, 1rem);
+
+    transition: all 0.2s ease-in;
+}
+
+.btn-box:hover {
+    border-color: transparent;
+}
+
+.btn-box:hover .btn {
+    transform: translate(0);
+}
+
+.btn-box--primary {
+    border: 1px solid var(--clr-light);
+}
+
+.btn-box--primary a {
+    color: var(--clr-light);
+    background-color: var(--clr-primary);
 }

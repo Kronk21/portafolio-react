@@ -10,9 +10,6 @@ const MainNavigation = function () {
 
                 <ul className="navbar__links">
                     <li>
-                        <a className="navbar__link">Proyectos</a>
-                    </li>
-                    <li>
                         <a className="navbar__link">Acerca de</a>
                     </li>
                     <li>
