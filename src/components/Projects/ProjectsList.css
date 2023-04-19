@@ -1,0 +1,13 @@
+.projects-list {
+    padding: 5.6rem 0 13.6rem;
+}
+
+.projects-list h2 {
+    margin-bottom: 12rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 16rem;
+}
