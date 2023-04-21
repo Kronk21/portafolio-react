@@ -1,16 +1,20 @@
+import { Link } from "react-router-dom";
+
 import "./MainNavigation.css";
 
 const MainNavigation = function () {
     return (
         <header>
             <div className="container">
-                <p className="logo">
+                <Link to="/" className="logo">
                     Cs<span>.dev</span>
-                </p>
+                </Link>
 
                 <ul className="navbar__links">
                     <li>
-                        <a className="navbar__link">Acerca de</a>
+                        <Link to="/acerca-de" className="navbar__link">
+                            Acerca de
+                        </Link>
                     </li>
                     <li>
                         <a className="navbar__link">Contacto</a>

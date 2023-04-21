@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import "./Footer.css";
 
 const Footer = function () {
@@ -61,10 +63,10 @@ const Footer = function () {
                             <h4>Paginas</h4>
                             <ul>
                                 <li>
-                                    <a>Inicio</a>
+                                    <Link to="/">Inicio</Link>
                                 </li>
                                 <li>
-                                    <a>Acerca de</a>
+                                    <Link to="/acerca-de">Acerca de</Link>
                                 </li>
                             </ul>
                         </div>

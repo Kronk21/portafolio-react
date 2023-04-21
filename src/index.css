@@ -40,6 +40,11 @@ body {
     /* padding: 0 2rem; */
 }
 
+.container--small {
+    max-width: 76.4rem;
+    margin: 0 auto;
+}
+
 .wrap {
     padding-left: 11.6rem;
     padding-right: 11.6rem;

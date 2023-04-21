@@ -1,5 +1,6 @@
 .hero--about {
-    max-height: 40.8rem;
+    /* min-height: 30rem; */
+    min-height: 40.8rem;
 }
 
 .hero--about .hero__wrap {

@@ -1,0 +1,39 @@
+.about-section {
+    padding: 13.6rem 0;
+}
+
+.about__paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 3.6rem;
+
+    font-size: 1.8rem;
+    line-height: 163.2%;
+
+    /* margin-bottom: 12rem; */
+}
+
+.about-section h2 {
+    margin-top: 12rem;
+    margin-bottom: 4rem;
+}
+
+.about__block {
+    display: flex;
+}
+
+.about__block ul {
+    flex: 1;
+}
+
+.about__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+
+    font-size: 1.8rem;
+}
+
+.about__list span {
+    font-weight: var(--fw-bold);
+}

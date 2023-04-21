@@ -2,7 +2,6 @@ import { useLoaderData } from "react-router-dom";
 
 import MainHero from "../components/Hero/MainHero";
 import ProjectsList from "../components/Projects/ProjectsList";
-import Footer from "../components/Footer/Footer";
 
 import { projects } from "../util/data";
 
@@ -15,8 +14,6 @@ const HomePage = function () {
             <MainHero />
 
             <ProjectsList projects={projects} />
-
-            <Footer />
         </>
     );
 };
