@@ -45,6 +45,11 @@ body {
     margin: 0 auto;
 }
 
+.container--medium {
+    max-width: 82.4rem;
+    margin: 0 auto;
+}
+
 .wrap {
     padding-left: 11.6rem;
     padding-right: 11.6rem;

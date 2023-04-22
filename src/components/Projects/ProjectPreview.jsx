@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import "./ProjectPreview.css";
 
 const ProjectPreview = function (props) {
@@ -15,9 +17,9 @@ const ProjectPreview = function (props) {
                 </ul>
                 <p className="info__description">{props.description}</p>
                 <div className="btn-box btn-box--secondary">
-                    <a className="btn" href={`/proyectos/${props.id}`}>
+                    <Link className="btn" to={`/proyectos/${props.id}`}>
                         Ver proyecto
-                    </a>
+                    </Link>
                 </div>
             </div>
 

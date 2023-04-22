@@ -2,6 +2,10 @@
     max-width: 76.8rem;
 }
 
+.hero--project .hero__wrap {
+    padding-top: 16vh;
+}
+
 .hero--project h1 {
     margin-bottom: 8rem;
 }
@@ -16,4 +20,13 @@
 
 .hero--project .btn-box {
     margin-bottom: 2rem;
+}
+
+.project-img-full {
+    border-radius: 1rem;
+    filter: drop-shadow(2px 4px 20px rgba(0, 0, 0, 0.1));
+
+    transform: translateY(-8.6rem);
+
+    margin-bottom: 4.6rem;
 }
