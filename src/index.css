@@ -139,3 +139,222 @@ img {
     color: var(--clr-light);
     background-color: var(--clr-dark);
 }
+
+/* 
+|----||----||----||----||----|
+        Reactive design 
+|----||----||----||----||----|
+*/
+/* 
+    1380px - Small desktops
+        86 * 16 = 1380
+*/
+@media (max-width: 86em) {
+    html {
+        font-size: 56.25%;
+    }
+
+    .hero__wrap {
+        padding-top: 14rem;
+    }
+
+    .hero--project .hero__wrap {
+        padding-top: 14rem;
+    }
+
+    .project-img-full {
+        transform: translateY(-10rem);
+    }
+
+    .footer__card p {
+        /* max-width: 60rem; */
+        padding-left: 3rem;
+    }
+}
+
+/* 
+    1180px - Laptop
+    74 * 16 = 1180
+*/
+@media (max-width: 74em) {
+    header {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+    .wrap {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+    .hero__wrap {
+        padding-left: 5.6rem;
+        min-height: 70rem;
+    }
+
+    .footer__card .container {
+        flex-direction: column;
+    }
+
+    .footer__card p {
+        /* max-width: 60rem; */
+        max-width: 100%;
+
+        padding-top: 3rem;
+        padding-left: 0;
+        margin-left: 0;
+    }
+}
+
+/* 
+    900px - Landscape Tablet
+        56 * 16 = 900
+ */
+@media (max-width: 56em) {
+    html {
+        font-size: 54%;
+    }
+
+    h1 {
+        font-size: 7.6rem;
+    }
+
+    .hero__wrap {
+        min-height: 80rem;
+        /* max-height: 80rem; */
+    }
+
+    .preview {
+        flex-direction: column;
+    }
+
+    .preview__info {
+        width: 100%;
+    }
+
+    .info__tags {
+        margin-bottom: 4rem;
+    }
+
+    .info__description {
+        max-width: 56rem;
+    }
+
+    .preview__img {
+        margin-top: 3rem;
+        max-width: 50rem;
+        /* align-self: flex-start; */
+    }
+
+    .card__text {
+        font-size: 2rem;
+    }
+
+    .container--medium {
+        max-width: 70rem;
+        padding: 0 4.8rem;
+    }
+
+    .project-img-full {
+        transform: translateY(-6rem);
+    }
+}
+
+/* 
+    520px - Tablet
+    33 * 16 = 520
+*/
+@media (max-width: 33em) {
+    html {
+        font-size: 52%;
+    }
+
+    h3 {
+        font-size: 5.4rem;
+    }
+
+    header,
+    .wrap {
+        padding-left: 4.8rem;
+        padding-right: 4.8rem;
+    }
+
+    .hero__wrap {
+        /* min-height: 90rem; */
+
+        padding-bottom: 6rem;
+        min-height: 0;
+        height: fit-content;
+    }
+
+    .hero__wrap,
+    .footer__card .wrap,
+    .footer__contact .wrap {
+        padding-left: 2.4rem;
+        padding-right: 2.4rem;
+    }
+
+    .footer__card .container {
+        padding-top: 8rem;
+    }
+
+    .card__text {
+        font-size: 1.8rem;
+    }
+
+    .footer__contact .container {
+        flex-direction: column;
+        gap: 4.8rem;
+    }
+
+    .hero--about .hero__wrap {
+        padding: 14rem 2.4rem 8rem;
+        min-height: fit-content;
+        height: fit-content;
+    }
+}
+
+/* 
+    376px - Big Phone
+    24 * 16 = 376
+*/
+@media (max-width: 24em) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    h3 {
+        font-size: 4rem;
+    }
+
+    .wrap {
+        padding-left: 2.4rem;
+        padding-right: 2.4rem;
+    }
+
+    .card__text {
+        font-size: 1.6rem;
+    }
+
+    .hero--project h1 {
+        margin-bottom: 6rem;
+    }
+
+    .about-section {
+        padding-top: 8rem;
+    }
+}
+
+/* 
+    280px - Phone
+    18 * 16 = 280
+*/
+@media (max-width: 18em) {
+    h1 {
+        font-size: 4.2rem;
+    }
+
+    h3 {
+        font-size: 3.2rem;
+    }
+}

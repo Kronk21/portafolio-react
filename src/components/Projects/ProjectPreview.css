@@ -27,6 +27,8 @@
     gap: 1.6rem;
 
     margin-bottom: 8rem;
+
+    flex-wrap: wrap;
 }
 
 .tag {

@@ -5,19 +5,6 @@ import "./Footer.css";
 const Footer = function () {
     return (
         <div className="footer">
-            {/* <div className="contact-wrap">
-                <div className="container">
-                    <h3>Contactame</h3>
-                    <p>
-                        Si necesitas un sitio web moderno y poderoso para tu
-                        negocio o para ti, estoy disponible para un trabajo.
-                        Puedes enviarme un correo directamente a
-                        <span>CesarAxel001@gmail.com</span>, o al número{" "}
-                        <span>771 359 7174</span>.
-                    </p>
-                </div>
-            </div> */}
-
             <div className="footer__card">
                 <div className="wrap">
                     <div className="container">
