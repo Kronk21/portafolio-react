@@ -312,6 +312,35 @@ img {
         min-height: fit-content;
         height: fit-content;
     }
+
+    /* Reactive Navbar */
+    header .container {
+        align-items: center;
+    }
+
+    .btn-menu {
+        display: block;
+    }
+
+    .navbar__links {
+        display: none;
+    }
+
+    header.show .logo {
+        visibility: hidden;
+    }
+
+    header.show .navbar__links {
+        display: flex;
+        flex-direction: column;
+        gap: 1.4rem;
+
+        position: absolute;
+    }
+
+    header.show .btn-menu {
+        color: var(--clr-primary);
+    }
 }
 
 /* 
