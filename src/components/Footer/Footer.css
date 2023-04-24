@@ -35,9 +35,14 @@
     line-height: 168.2%;
 }
 
-.card__text span {
+.card__text span a {
     font-weight: var(--fw-bold);
+    color: var(--clr-primary);
     text-decoration: underline;
+}
+
+.card__text span a:hover {
+    text-decoration: none;
 }
 
 .footer__contact {

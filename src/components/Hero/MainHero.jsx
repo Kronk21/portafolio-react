@@ -1,5 +1,7 @@
 import "./MainHero.css";
 
+import { scrollToContact } from "../../util/Scrolls";
+
 const MainHero = function () {
     return (
         <div className="hero hero--main">
@@ -16,7 +18,9 @@ const MainHero = function () {
                         dare un tiempo y costo estimado (~_^).
                     </p>
                     <div className="btn-box btn-box--primary">
-                        <a className="btn">Contactame</a>
+                        <a onClick={scrollToContact} className="btn">
+                            Contactame
+                        </a>
                     </div>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-const ScrollToTop = function () {
+export const ScrollToTop = function () {
     const { pathname } = useLocation();
 
     // console.log(pathname);
@@ -17,4 +17,14 @@ const ScrollToTop = function () {
     return null;
 };
 
-export default ScrollToTop;
+export const scrollToContact = function () {
+    const contactElement = document.querySelector(".footer");
+
+    contactElement.scrollIntoView({ behavior: "smooth" });
+};
+
+export const scrollToNavbar = function () {
+    const navbarElement = document.querySelector("body");
+
+    navbarElement.scrollIntoView({ behavior: "smooth" });
+};

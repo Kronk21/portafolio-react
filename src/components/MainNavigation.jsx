@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 
 import "./MainNavigation.css";
 
+import { scrollToContact } from "../util/Scrolls";
+
 const MainNavigation = function () {
     const [navbarIsShowing, setNavbarIsShowing] = useState(false);
 
@@ -20,7 +22,9 @@ const MainNavigation = function () {
                         </Link>
                     </li>
                     <li>
-                        <a className="navbar__link">Contacto</a>
+                        <a onClick={scrollToContact} className="navbar__link">
+                            Contacto
+                        </a>
                     </li>
                 </ul>
 

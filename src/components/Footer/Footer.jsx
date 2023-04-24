@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 
 import "./Footer.css";
 
+import { scrollToNavbar } from "../../util/Scrolls";
+
 const Footer = function () {
     return (
         <div className="footer">
@@ -13,8 +15,35 @@ const Footer = function () {
                             Si necesitas un sitio web moderno y poderoso para tu
                             negocio o para ti, estoy disponible para un trabajo.
                             Puedes enviarme un correo directamente a
-                            <span> CesarAxel001@gmail.com</span> o al número{" "}
-                            <span>771 359 7174</span>.
+                            <span>
+                                {" "}
+                                <a
+                                    href="https://mail.google.com/mail/?view=cm&fs=1&to=CesarAxel001@gmail.com"
+                                    target="_blank"
+                                >
+                                    CesarAxel001@gmail.com
+                                </a>
+                            </span>
+                            , contactarme por medio de mi{" "}
+                            <span>
+                                <a
+                                    href="https://www.instagram.com/cesarserrano21/"
+                                    target="_blank"
+                                >
+                                    Instagram
+                                </a>
+                            </span>{" "}
+                            o enviarme un mensaje al número{" "}
+                            <span>
+                                {/* 771 359 7174 */}
+                                <a
+                                    href="https://api.whatsapp.com/send?phone=527713597174"
+                                    target="_blank"
+                                >
+                                    771 359 7174
+                                </a>
+                            </span>
+                            .
                         </p>
                     </div>
                 </div>
@@ -26,8 +55,22 @@ const Footer = function () {
                         <div className="contact__category">
                             <h4>Datos</h4>
                             <ul>
-                                <li>771 359 7174</li>
-                                <li>CesarAxel001@gmail.com</li>
+                                <li>
+                                    <a
+                                        href="https://api.whatsapp.com/send?phone=527713597174"
+                                        target="_blank"
+                                    >
+                                        771 359 7174
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://mail.google.com/mail/?view=cm&fs=1&to=CesarAxel001@gmail.com"
+                                        target="_blank"
+                                    >
+                                        CesarAxel001@gmail.com
+                                    </a>
+                                </li>
                             </ul>
                         </div>
 
@@ -35,13 +78,28 @@ const Footer = function () {
                             <h4>Redes</h4>
                             <ul>
                                 <li>
-                                    <a>Instagram</a>
+                                    <a
+                                        href="https://www.instagram.com/cesarserrano21/"
+                                        target="_blank"
+                                    >
+                                        Instagram
+                                    </a>
                                 </li>
                                 <li>
-                                    <a>LinkedIn</a>
+                                    <a
+                                        href="https://www.linkedin.com/in/cesar-serrano-113597260/"
+                                        target="_blank"
+                                    >
+                                        LinkedIn
+                                    </a>
                                 </li>
                                 <li>
-                                    <a>GitHub</a>
+                                    <a
+                                        href="https://github.com/Kronk21"
+                                        target="_blank"
+                                    >
+                                        GitHub
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -50,7 +108,9 @@ const Footer = function () {
                             <h4>Paginas</h4>
                             <ul>
                                 <li>
-                                    <Link to="/">Inicio</Link>
+                                    <Link onClick={scrollToNavbar} to="/">
+                                        Inicio
+                                    </Link>
                                 </li>
                                 <li>
                                     <Link to="/acerca-de">Acerca de</Link>
