@@ -45,6 +45,7 @@ const AboutInfo = function () {
                             <li>• JavaSript</li>
                             <li>• PHP</li>
                             <li>• MySQL</li>
+                            <li>• APIs</li>
                         </ul>
                         <ul className="about__list">
                             <li>• React</li>
