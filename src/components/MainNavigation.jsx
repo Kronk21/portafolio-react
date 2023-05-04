@@ -26,6 +26,15 @@ const MainNavigation = function () {
                             Contacto
                         </a>
                     </li>
+                    <li>
+                        <a
+                            href="/docs/Curriculum-Cesar-Serrano.pdf"
+                            target="_blank"
+                            className="navbar__link"
+                        >
+                            Curriculum
+                        </a>
+                    </li>
                 </ul>
 
                 <button

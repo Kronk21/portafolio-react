@@ -45,12 +45,13 @@ const AboutInfo = function () {
                             <li>• JavaSript</li>
                             <li>• PHP</li>
                             <li>• MySQL</li>
-                            <li>• APIs</li>
+                            <li>• AJAX</li>
                         </ul>
                         <ul className="about__list">
                             <li>• React</li>
                             <li>• Laravel</li>
                             <li>• Figma</li>
+                            <li>• Miro</li>
                             <li>• GitHub</li>
                             <li>• Git</li>
                         </ul>
