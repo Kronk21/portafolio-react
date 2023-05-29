@@ -14,12 +14,12 @@ const MainHero = function () {
                     <p className="hero__desc">
                         Diseño y construyo experiencias de usuarios geniales
                         para cualquier negocio. Si necesitas un sitio moderno y
-                        poderoso, enviame un correo. Si estamos en sintonia, te
+                        poderoso, enviame un correo. Si estamos en sintonía, te
                         dare un tiempo y costo estimado (~_^).
                     </p>
                     <div className="btn-box btn-box--primary">
                         <a onClick={scrollToContact} className="btn">
-                            Contactame
+                            Contáctame
                         </a>
                     </div>
                 </div>

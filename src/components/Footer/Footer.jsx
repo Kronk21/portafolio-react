@@ -10,7 +10,7 @@ const Footer = function () {
             <div className="footer__card">
                 <div className="wrap">
                     <div className="container">
-                        <h3>Contactame</h3>
+                        <h3>Contáctame</h3>
                         <p className="card__text">
                             Si necesitas un sitio web moderno y poderoso para tu
                             negocio o para ti, estoy disponible para un trabajo.

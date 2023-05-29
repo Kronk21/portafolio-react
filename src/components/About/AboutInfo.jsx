@@ -9,29 +9,27 @@ const AboutInfo = function () {
                         <p>
                             Soy Cesar Serrano, diseñador web y apasionado por la
                             programacion. Me gusta resolver y crear aplicaciones
-                            que generen experiencias inolvidables. Me gradue de
-                            la Universidad Autonoma del Estado de Hidalgo en el
-                            area de Ciencias Computacionales.
+                            que generen experiencias inolvidables. Me gradué de
+                            la Universidad Autónoma del Estado de Hidalgo en el
+                            área de Ciencias Computacionales.
                         </p>
 
                         <p>
                             Resuelvo problemas investigando, testeando y
-                            comunicando con empatia, creo que trabajando de esta
-                            manera los resultados seran soluciones exitosas y
+                            comunicando con empatía, creo que trabajando de esta
+                            manera los resultados serán soluciones exitosas y
                             positivas para los usuarios.
                         </p>
 
                         <p>
-                            Disfruto trabajar con personas en multiples
+                            Disfruto trabajar con personas en múltiples
                             disciplinas porque me permite aprender y aplicar
-                            metodos interdisciplinares a la resolucion de
-                            desafios.
+                            métodos interdisciplinares a la resolución de
+                            desafíos.
                         </p>
 
                         <p>
-                            En mi tiempo libre practico guitarra, soy un gran
-                            fanatico de la lucha libre y fubol. Si quieres
-                            contactarme enviame un correo a
+                            Si quieres contactarme enviame un correo a
                             CesarAxel001@gmail.com o enviame un mensaje a 771
                             359 7174.
                         </p>
