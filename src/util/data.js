@@ -39,4 +39,14 @@ export const projects = [
         img_full: "upss-wireless-full.png",
         link: "https://github.com/Kronk21/UPSS-Wireless",
     },
+    {
+        id: "semillero-artes-vivas",
+        title: "Semillero",
+        tags: ["Diseño Web"],
+        description:
+            "Diseño en Figma de un sitio web portafolio para una empresa organizadora de eventos de recorridos en la ciudad de Pachuca de Soto. Cuenta con secciones para describir la empresa, una galería de fotos, presentación de los dueños y un carrusel para ver los eventos que se han hecho.",
+        img: "semillero.png",
+        img_full: "semillero-full.png",
+        link: "https://www.figma.com/proto/bqqyAD7U2USJqAwKIXqx1I/Semillero?page-id=407%3A35&type=design&node-id=3571-30&viewport=568%2C119%2C0.12&t=OR1GCNkGwUajR4nN-1&scaling=min-zoom&mode=design",
+    },
 ];
