@@ -32,12 +32,20 @@ export const projects = [
     {
         id: "upss-wireless",
         title: "UPSS Wireless",
-        tags: ["Desarrollo Web", "Diseño Web", "Bases de Datos", "E-Commerce"],
+        tags: [
+            "Desarrollo Web",
+            "Diseño Web",
+            "Bases de Datos",
+            "E-Commerce",
+            "Laravel",
+            "API",
+            "React",
+        ],
         description:
-            "Plataforma en línea para que  usuarios puedan comprar productos electronicos y servicios en línea. El proyecto fue desarrollado utilizando el lenguaje de programación PHP y se utilizó la base de datos MySQL.",
+            "Plataforma en línea para que  usuarios puedan comprar productos electronicos en línea. El proyecto fue desarrollado utilizando React como frontend, y como backend una API hecha en Laravel y una base de datos MySQL.",
         img: "upss-wireless.png",
         img_full: "upss-wireless-full.png",
-        link: "https://github.com/Kronk21/UPSS-Wireless",
+        link: "https://github.com/Kronk21/UPSS-Laravel-React",
     },
     {
         id: "semillero-artes-vivas",
