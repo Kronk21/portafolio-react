@@ -7,7 +7,7 @@ export const projects = [
             "Sitio web para la empresa Tapai Coworking y los servicios que ofrecen, así como una lista de los espacios disponibles, sus características principales, precios detallados y fotos de los espacios.",
         img: "tapai-coworking.png",
         img_full: "tapai-coworking-full.png",
-        link: "https://grupotapai.com/",
+        link: "https://shiny-sprinkles-44b336.netlify.app/",
     },
     {
         id: "come-y-calla",
